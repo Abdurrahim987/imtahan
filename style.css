@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+.roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+  }
+.servis{
+    font-size: 50px;
+    margin: 30px;
+    margin-left: 320px;
+}
+.work{
+    font-size: 20px;
+    color: #e9204f;
+    margin: 30px;
+    font-weight: 500;
+    margin-left: 320px;
+}
+.borderdiv{
+    display: flex;
+    flex-wrap: wrap;
+    color: #f3f3f3;
+    border: 1px solid;
+    background-color: #f3f3f3;
+    padding: 40px 30px;
+    margin: 20px 0;
+}
+.produc{
+    color: black;
+    font-size:20px;
+    font-weight: 700;
+}
+.flex1{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 30px;
+    margin: 0 30px;
+}
+.ox{
+    display: flex;
+    justify-content: space-between;
+}
+.borderdiv:hover {
+    background-color: #e9204f;
+    transition: 200ms;
+}
+.borderdiv:hover label{
+    padding-left: 50px;
+    transition: padding-left 300ms;
+    color: white;
+}
+.work2{
+    font-size: 50px;
+    margin: 10px;
+}
+.things{
+    font-size: 20px;
+    color: #e9204f;
+   
+    font-weight: 500;
+}
+.div2{
+    display: flex;
+    justify-content: space-around;
+}
+.div3{
+    display: flex;
+    flex-direction: column;
+}
+.borderdiv2{
+    border: 1px solid;
+    height: 50px;
+    width: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #e9204f;
+}
+.view{
+    color: black;
+}
+.borderdiv2:hover {
+    background-color: #e9204f;
+    transition: 200ms;
+}
+.borderdiv2:hover label{
+    padding-left: 50px;
+    transition: padding-left 30ms;
+    color: white;
+}
+.sekil1{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 30px;
+    margin: 0 30px;
+}
+.ayaqqabi{
+    height: 750px;
+    opacity: 40%;
+}
+.orta{
+     height: 750px;
+     opacity: 40%;
+}
+.ofis{
+    height: 750px;
+    opacity: 40%;
+}
+.ayaqqabi:hover {
+    opacity: 100%;
+    transition: 200ms;
+}.orta:hover {
+    opacity: 100%;
+    transition: 200ms;
+}.ofis:hover {
+    opacity: 100%;
+    transition: 200ms;
+}
+@media screen and (min-width:900px) {
+.abdu{
+    display: flex;
+    justify-content: space-around;
+}
+
+}
